@@ -4,53 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        body {
-            padding: 0px;
-            margin: 0px;
-        }
-        .navbar {
-            position: fixed;
-            width: 180px;
-            background: forestgreen;
-            height: 100%;
-            margin: 0px;
-        }
-        .nav-item {
-            list-style: None;
-            margin: 20px 10px;
-        }
-        .nav-link {
-            text-decoration: None;
-            color: white;
-            font-size: 1.4rem;
-            transition: all 400ms;
-        }
-        .nav-link:hover {
-            font-size: 1.6rem;
-        }
-        h1 {
-            width: 100%;
-            background: forestgreen;
-            color: white;
-            margin: 0px;
-            padding: 15px 20px;
-        }
-        #content {
-            margin-left: 220px;
-            padding: 30px 20px;
-        }
-    </style>
+    <title>Quiz</title>
+        <link rel="stylesheet" href="{{ url_for("static", filename="quiz.css") }}">
 </head>
 <body>
-    <h1>My website</h1>
+    <h1>Awesome Quiz</h1>
     <ul class="navbar">
         <li class="nav-item">
             <a class="nav-link" href="/">Home</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="/about">About</a>
+            <a class="nav-link" href="/question">Quiz</a>
         </li>
     </ul>
     <div id="content">

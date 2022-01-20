@@ -1,0 +1,35 @@
+        body {
+            padding: 0px;
+            margin: 0px;
+        }
+        .navbar {
+            position: fixed;
+            width: 180px;
+            background: forestgreen;
+            height: 100%;
+            margin: 0px;
+        }
+        .nav-item {
+            list-style: None;
+            margin: 20px 10px;
+        }
+        .nav-link {
+            text-decoration: None;
+            color: white;
+            font-size: 1.4rem;
+            transition: all 400ms;
+        }
+        .nav-link:hover {
+            font-size: 1.6rem;
+        }
+        h1 {
+            width: 100%;
+            background: forestgreen;
+            color: white;
+            margin: 0px;
+            padding: 15px 20px;
+        }
+        #content {
+            margin-left: 220px;
+            padding: 30px 20px;
+        }
