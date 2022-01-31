@@ -36,5 +36,10 @@ def answer(question_id, answer_id):
     return render_template("answer.html", correct=correct)
 
 
+@app.route("/profile")
+def profile():
+    return render_template("profile.html")
+
+
 if __name__ == "__main__":
     app.run()
