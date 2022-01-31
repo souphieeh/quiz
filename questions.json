@@ -2,16 +2,91 @@
     {
         "id": 1,
         "title": "First Question",
-        "question": "What is the correct answer?",
+        "question": "What does spill the tea mean?",
         "answers": [
             {
                 "id": 1,
-                "text": "This one"
+                "text": "talking about interests"
             }, {
                 "id": 2,
-                "text": "No this one!!"
+                "text": "gossiping"
             }
         ],
-        "correct": 1
-    }
-]
+        "correct": 2
+    }, 
+
+  {
+    "id": 2,
+    "title": "Second Question",
+    "question": "Who was the first One Dircetion member to leave the band?",
+    "answers": [
+        {
+            "id": 1,
+            "text": "Zayn"
+        }, {
+            "id": 2,
+            "text": "Harry Styles"
+        }
+    ],
+    "correct": 1
+},
+{
+    "id": 3,
+    "title": "Third Question",
+    "question": "What does 'sus' mean?",
+    "answers": [
+        {
+            "id": 1,
+            "text": "Suspicois"
+        }, {
+            "id": 2,
+            "text": "Susanne"
+        }
+    ],
+    "correct": 1
+},
+{
+    "id": 4,
+    "title": "Fourth Question",
+    "question": "What is the meaning of 'no cap'?",
+    "answers": [
+        {
+            "id": 1,
+            "text": "real or no lies"
+        }, {
+            "id": 2,
+            "text": "He's not wearing a hat"
+        }
+    ],
+    "correct": 1
+},
+{
+    "id": 5,
+    "title": "Fith Question",
+    "question": "What's the name of Kylie Jenner's child?",
+    "answers": [
+        {
+            "id": 1,
+            "text": "Stormi"
+        }, {
+            "id": 2,
+            "text": "North"
+        }
+    ],
+    "correct": 1
+},
+{
+    "id": 6,
+    "title": "Sixth Question",
+    "question": "?",
+    "answers": [
+        {
+            "id": 1,
+            "text": "This one"
+        }, {
+            "id": 2,
+            "text": "No this one!!"
+        }
+    ],
+    "correct": 2
+}]
