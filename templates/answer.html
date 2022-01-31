@@ -2,13 +2,13 @@
 {% block content %}
     <div class="answer-container">
         {% if correct %}
-        <p id="answer-text">Die Antwort ist richtig!</p>
+        <p id="answer-text">This answer is correct!</p>
         {% else %}
-        <p id="answer-text" class="wrong">Die Antwort ist falsch!</p>
+        <p id="answer-text" class="wrong">This answer is wrong</p>
         {% endif %}
     </div>
     <div id="next-question" class="answer-container">
-        <a href="/question">Weiter zur nächsten Frage</a>        
+        <a href="/question">On to the next question</a>        
     </div>
 
 {% endblock %}
