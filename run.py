@@ -12,6 +12,11 @@ def random_question():
         questions = json.load(f)
     return choice(questions)
 
+def next_question(q_id):
+    with open("questions.json", 'r') as f:
+        questions = json.load(f)
+    return choice(questions)
+
 def check_answer(q_id, a_id):
     with open("questions.json", 'r') as f:
         questions = json.load(f)
