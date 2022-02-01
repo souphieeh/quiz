@@ -1,8 +1,8 @@
 [
     {
         "id": 1,
-        "title": "First Question",
-        "question": "What does spill the tea mean?",
+        "title": "What does spill the tea mean?",
+        "question": "",
         "answers": [
             {
                 "id": 1,
@@ -17,8 +17,8 @@
 
   {
     "id": 2,
-    "title": "Second Question",
-    "question": "Who was the first One Dircetion member to leave the band?",
+    "title": "Who was the first One Dircetion member to leave the band?",
+    "question": "",
     "answers": [
         {
             "id": 1,
@@ -32,8 +32,8 @@
 },
 {
     "id": 3,
-    "title": "Third Question",
-    "question": "What does 'sus' mean?",
+    "title": "What does 'sus' mean?",
+    "question": "",
     "answers": [
         {
             "id": 1,
@@ -47,8 +47,8 @@
 },
 {
     "id": 4,
-    "title": "Fourth Question",
-    "question": "What is the meaning of 'no cap'?",
+    "title": "What is the meaning of 'no cap'?",
+    "question": "",
     "answers": [
         {
             "id": 1,
@@ -62,8 +62,8 @@
 },
 {
     "id": 5,
-    "title": "Fith Question",
-    "question": "What's the name of Kylie Jenner's child?",
+    "title": "What's the name of Kylie Jenner's child?",
+    "question": "",
     "answers": [
         {
             "id": 1,
@@ -77,16 +77,16 @@
 },
 {
     "id": 6,
-    "title": "Sixth Question",
-    "question": "?",
+    "title": "What is Harry Styles' second name?",
+    "question": "",
     "answers": [
         {
             "id": 1,
-            "text": "This one"
+            "text": "Edward"
         }, {
             "id": 2,
-            "text": "No this one!!"
+            "text": "Collin"
         }
     ],
-    "correct": 2
+    "correct": 1
 }]
